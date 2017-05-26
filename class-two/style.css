@@ -1,0 +1,130 @@
+/*
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+img {
+    height: 100%;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+.blue_quote_form input:focus, .blue_quote_form textarea:focus {
+	outline: none;
+}
+input[type=email]:focus {
+	outline: 0px solid;
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+	color:#fff;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Custom CSS------*/
+section.section_padding {
+    padding: 80px 0;
+}
+.quote_area {
+    text-align: center;
+}
+.blue_quote_form {
+    background: #19b5ff none repeat scroll 0 0;
+    margin-top: -46px;
+    max-height: 600px;
+    padding: 0 100px 50px;
+}
+.blue_quote_form h3 {
+    color: #fff;
+    font-size: 26px;
+    padding: 50px 0 25px;
+    position: relative;
+    text-transform: uppercase;
+}
+.quote_area img {
+    display: block;
+    margin: 0 auto;
+}
+.blue_quote_form h3::before {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    width: 100px;
+}
+.blue_quote_form h3::after {
+    background: #19b5ff none repeat scroll 0 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: -5px;
+    content: "";
+    height: 10px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    width: 10px;
+}
+.blue_quote_form input, .blue_quote_form textarea {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+}
+.blue_quote_form input, .blue_quote_form textarea {
+    border-bottom: 1px solid #fff;
+    padding: 20px 0;
+    width: 100%;
+	color: #fff;
+}
+.blue_quote_form textarea {
+	height: 100px;
+	resize: none;
+}
+.form_button button[type="submit"] {
+	background: #fff none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 5px;
+	color: #19b5ff;
+	font-size: 15px;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
