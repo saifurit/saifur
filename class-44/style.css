@@ -1,0 +1,204 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+.welcome_area {
+	background: #333 url(assets/img/bg.jpg) no-repeat scroll center center / cover;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+.welcome_area:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	z-index: -1;
+	opacity: .7;
+}
+.logo img {
+    height: auto;
+    max-width: 70px;
+    padding-right: 6px;
+}
+.logo h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+.logo a {
+    color: #ef4043;
+}
+.mainmenu {
+	margin-top: 10px;
+}
+.mainmenu ul li {
+    display: inline-block;
+}
+.mainmenu ul li a {
+    border-radius: 50px;
+    color: #333;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.mainmenu ul li.bordered_menu a {
+    border: 1px solid #ef4043;
+    color: #ef4043;
+}
+.hero_area_table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.hero_area_tablecell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.hero_text {
+	font-weight: 300;
+	font-size: 20px;
+}
+.hero_text h1 {
+    font-size: 41px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.hero_subscription_form {
+    margin-top: 80px;
+	max-width: 500px;
+}
+.header_area {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 10px 0;
+	z-index: 9;
+}
+.copyright_area {
+    background: #42413e none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+	font-size: 95%;
+	z-index: 9;
+}
+.copyright_area, .copyright_area a {
+    color: #ccc;
+}
+.copyright_area ul li {
+    display: inline-block;
+    padding-left: 30px;
+}
+.copyright_area ul li a {
+    display: block;
+}
+.hero_subscription_form p {
+    font-size: 14px;
+}
+.hero_subscription_form input[type="email"] {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px;
+    width: 50%;
+	border-radius: 5px;
+	margin-right: 1%;
+}
+.hero_subscription_form button[type="submit"] {
+    background: #ef4046 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 25px;
+    text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.hero_social_links a {
+    color: #42413e;
+    display: inline-block;
+    padding-right: 7px;
+	font-size: 16px;
+	font-weight: 600;
+	padding-top: 10px;
+}

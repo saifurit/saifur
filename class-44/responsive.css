@@ -1,7 +1,6 @@
 /*	Medium Layout: 1280px	*/
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 	
-	
 }
 
 
@@ -9,9 +8,7 @@
 /*		Tablet Layout: 768px.       */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.column {
-		width: 750px;
-	}
+	
 
 }
 
@@ -21,10 +18,36 @@
 
 @media only screen and (max-width: 767px) {
 	
-	.column {
-		width: 300px;
+	.welcome_area {
+		height: auto;
 	}
-	
+	.hero_area_table {
+	  display: block;
+	  height: auto;
+	}	
+	.logo {
+	  margin-bottom: 20px;
+	}
+	.logo, .mainmenu, .copyright_area ul {
+		text-align: center;
+	}
+	.copyright_area {
+		position: relative;
+		text-align: center;
+	}
+	.copyright_area ul li{
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 15px;
+	}
+	.hero_text {
+	  margin-bottom: 60px;
+	  margin-top: 150px;
+	}
+	.hero_subscription_form input[type="email"] {
+	  width: 60%;
+	  margin-bottom: 10px;
+	}
 }
 
 
@@ -33,9 +56,7 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
-	.column {
-		width: 450px;
-	}
+	
 
 }
 
