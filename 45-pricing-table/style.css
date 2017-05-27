@@ -1,0 +1,153 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	color: #6c7a89;
+	font-size: 16px;
+	line-height: 1.8;
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+	color: #14abf4;
+}
+a:focus {
+	color: #14abf4;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+
+.single_price_box {
+    border: 2px solid #f1f4f7;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    padding: 40px;
+	transition: .3s;
+}
+.price_amount {
+    color: #14abf4;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 70px;
+    margin-bottom: 0;
+}
+.price_box_price span {
+    opacity: 0.7;
+}
+.pricing_box_content {
+  border-top: 2px solid #f1f5fa;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.pricing_box_content ul li {
+    display: block;
+    line-height: 1.4;
+    padding-bottom: 15px;
+}
+.boxed_btn {
+    background: #14abf4 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    padding: 12px 40px;
+    text-transform: capitalize;
+	transition: .3s;
+}
+.boxed_btn:hover {
+	color: #fff;
+	background: #67b930
+}
+.single_price_box .boxed_btn {
+    margin-top: 30px;
+}
+.single_price_box h4 span {
+    color: #67b930;
+    display: block;
+    font-size: 80%;
+    margin-top: 10px;
+}
+.single_price_box h4 {
+    margin-bottom: 40px;
+	font-size: 20px;
+}
+.single_price_box.active h4 {
+    margin-bottom: 25px;
+    margin-top: -15px;
+}
+.single_price_box.active {
+    border-radius: 0 0 5px 5px;
+    position: relative;
+	box-shadow: 0 0 40px #dcd9d9;
+}
+.single_price_box.active::before {
+    background: #67b930 none repeat scroll 0 0;
+    content: "";
+    height: 4px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 100%;
+}
+.single_price_box:hover {
+	box-shadow: 0 0 40px #dcd9d9;
+}
