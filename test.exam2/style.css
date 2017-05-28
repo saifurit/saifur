@@ -1,0 +1,179 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+	font-weight: 300;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+.welcome_area {
+	background: #4f34c3;
+	background: -moz-linear-gradient(45deg, #4f34c3 0%, #f84eed 100%);
+	background: -webkit-linear-gradient(45deg, #4f34c3 0%,#f84eed 100%);
+	background: linear-gradient(45deg, #4f34c3 0%,#f84eed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f34c3', endColorstr='#f84eed',GradientType=1 );
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+.welcome_area:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(assets/img/header_top_shape.png) no-repeat scroll center center / cover;
+	z-index: -1;
+	opacity: .35
+}
+
+.mainmenu ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.mainmenu ul li.menu_signup {
+	background: #ff298d;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 50px;
+	padding: 10px 22px;
+}
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+}
+.mainmenu {
+    margin-top: 5px;
+}
+.header_top_area {
+    left: 0;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.slide_table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.slide_tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.video_play {
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 39px;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+    width: 40px;
+    z-index: 1;
+}
+.video_play:hover {
+	color: #fff;
+}
+.video_play::after {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.35;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.slide_text, .slide_text a {
+    color: #fff;
+}
+.slide_text p {
+    opacity: 0.5;
+}
+.boxed_btn {
+    background: #ff298e none repeat scroll 0 0;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.slide_text .boxed_btn {
+    margin-top: 40px;
+}
