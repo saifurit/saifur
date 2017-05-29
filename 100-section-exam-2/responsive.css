@@ -1,0 +1,145 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+	
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.margin_minus {
+	  margin-bottom: 0px;
+	  margin-top: 0px;
+	  padding: 86px 50px;
+	}	
+
+}
+
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+	
+	.slide_table {
+	  display: block;
+	  height: auto;
+	  width: auto;
+	}
+	.slide_text {
+	  padding: 120px 0;
+	}
+	.footer_menu, .footer_img {
+		text-align: center;
+	}
+	.logo {
+	  text-align: center;
+	}
+	.slide_text {
+	  padding: 150px 0 30px;
+	}
+	.header_top_area {
+	  padding: 10px 0;
+	}
+	
+	.mainmenu ul li {
+	  padding: 0 8px;
+	}
+	.mainmenu {
+	  text-align: center;
+	}
+	.footer_menu ul li {
+	  padding: 5px 15px;
+	}
+	.slide_text .boxed_btn {
+	  margin-top: 15px;
+	}
+	.white_box .boxed_btn, .project_area .boxed_btn {
+	  font-size: 14px;
+	  margin-top: 20px;
+	}
+	.margin_minus {
+	  margin-bottom: 0;
+	  margin-top: 0;
+	  padding: 30px;
+	}
+	.time_job_content p {
+		font-size: 17px;
+		line-height: 1.5;
+		margin-top: 15px;
+		padding: 0;
+	}
+	.single_partner {
+	  width: 28%;
+	}
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.logo, .mainmenu {
+		text-align: center;
+	}
+	.slide_text {
+		padding-top: 120px;
+		padding-left: 50px;
+	}
+	.single_works_item {
+	  margin-bottom: 30px;
+	  min-height: 300px;
+	}
+	
+	.single_service_item {
+	  padding: 15px 40px;
+	}	
+	.time_job_content p {
+	  font-size: 18px;
+	 line-height: 30px;
+	 margin-top: 15px;
+	 padding: 0;
+	}
+	.single_testimonial p {
+	  font-size: 17px;
+	  line-height: 30px;
+	}
+	
+	
+	.footer_area {
+	  padding: 15px;
+	}
+	.footer_menu ul li {
+	  padding: 15px 0 0 15px;
+	}
+	.slide_table {
+	  display: block;
+	  height: auto;
+	  width: auto;
+	}
+	
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
