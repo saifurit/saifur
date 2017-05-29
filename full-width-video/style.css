@@ -1,0 +1,124 @@
+/*
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: 100%;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #fff;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+/*------End Base CSS------*/
+
+/*
+=========================
+This is transition effect
+=========================
+{transition:all 0.9s ease 0s;-moz-transition:all 0.9s ease 0s;-webkit-transition:all 0.9s ease 0s;-o-transition:all 0.9s ease 0s;}
+*/
+
+/*------Start Here Custom CSS------*/
+.video_area_bg {
+	background: url(img/bg.jpg) no-repeat scroll center center / cover;
+	background-color: #ddd;
+}
+.check_icon li:before {
+	font-family: fontAwesome;
+	content: "\f00c";
+}
+section.video_area {
+    position: relative;
+	padding: 100px 0;
+}
+.video_area_bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 42%;
+	box-shadow: 0 0 20px #888;
+}
+.video-play-btn {
+    background: #2ecc71 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 50px;
+    height: 80px;
+    line-height: 80px;
+    margin-top: -50px;
+    padding-left: 10px;
+    position: absolute;
+    right: -40px;
+    text-align: center;
+    top: 50%;
+    width: 80px;
+}
+.video_area_bg a:hover {
+	color: #fff;
+}
+.video_area_content h3 {
+    color: #333;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.video_area_content {
+    color: #acacac;
+}
+ul.check_icon {
+    color: #666;
+    font-size: 16px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.check_icon li {
+    padding-bottom: 10px;
+    padding-left: 35px;
+    position: relative;
+}
+.check_icon li::before {
+    color: #2ecc71;
+    left: 0;
+    position: absolute;
+    top: 2px;
+}
+
