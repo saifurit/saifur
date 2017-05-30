@@ -1,0 +1,200 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+
+}
+img {
+	height: auto;
+	max-width: 100%;
+	border: none;
+}
+body, html {
+	height: 100%;
+}
+a, a:hover {
+	text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+p {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 100px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+.dark_bg {
+	background: #343434 none repeat scroll 0 0;
+	color: #c7c7c7;
+}
+.trailor_text {
+	font-size: 17px;
+	line-height: 1.9;
+	padding-top: 50px;
+}
+.trailor_text h2 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 60px;
+	margin-bottom: 25px;
+	position: relative;
+	text-transform: uppercase;
+	padding-bottom: 12px;
+}
+
+.trailor_text h2::after {
+	background: #cc4744 none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	height: 3px;
+	left: 0;
+	position: absolute;
+	width: 30px;
+}
+
+.bordered_btn {
+	border: 2px solid #cc4744;
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	padding: 8px 25px;
+	text-transform: uppercase;
+	width: 215px;
+}
+.bordered_btn i.fa {
+	float: right;
+	font-size: 13px;
+	font-weight: 300;
+	padding-top: 8px;
+}
+.bordered_btn:hover {
+	color: #fff;
+}
+.trailor_text .bordered_btn {
+	margin-top: 30px;
+}
+
+.trailor_info {
+	position: relative;
+}
+.colored_box {
+	background: #ff4f4c none repeat scroll 0 0;
+	color: #fff;
+	height: 300px;
+	padding: 70px 0 0;
+	position: absolute;
+	right: 75px;
+	text-align: center;
+	text-transform: uppercase;
+	top: -30px;
+	width: 200px;
+}
+.colored_box * {
+	position: relative;
+	z-index: 2;
+}
+.colored_box p {
+	opacity: 0.5;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.colored_box p.price_text {
+	color: #fff;
+	font-size: 35px;
+	opacity: 1;
+}
+.absolute_shopping_cart {
+	background: #fff none repeat scroll 0 0;
+	box-shadow: 0 0 10px #666;
+	color: #333;
+	font-size: 17px;
+	height: 50px;
+	left: -25px;
+	line-height: 49px;
+	position: absolute;
+	top: 45px;
+	width: 50px;
+}
+.trailor_info img {
+	padding-top: 150px;
+	position: relative;
+	z-index: 1;
+}
+div.owl-carousel .owl-item img {
+	width: auto;
+	display: inline-block;
+}
+.trailor_carousel .owl-controls .owl-dots div:nth-child(1) span:before{content: "01"}
+.trailor_carousel .owl-controls .owl-dots div:nth-child(2) span:before{content: "02"}
+.trailor_carousel .owl-controls .owl-dots div:nth-child(3) span:before{content: "03"}
+.trailor_carousel .owl-controls .owl-dots div:nth-child(4) span:before{content: "04"}
+.trailor_carousel .owl-controls .owl-dots div:nth-child(5) span:before{content: "05"}
+.trailor_carousel .owl-controls .owl-dots div:nth-child(6) span:before{content: "06"}
+.trailor_carousel .owl-controls .owl-dots div:nth-child(7) span:before{content: "07"}
+.trailor_carousel .owl-controls .owl-dots div:nth-child(8) span:before{content: "08"}
+.trailor_carousel .owl-controls .owl-dots div:nth-child(9) span:before{content: "09"}
+.trailor_carousel .owl-controls .owl-dots div:nth-child(10) span:before{content: "10"}
+
+.trailor_carousel .owl-controls .owl-dots div {
+	border-left: 2px solid #444;
+	padding: 20px 15px;
+}
+.trailor_carousel .owl-controls .owl-dots div.active {
+	border-color: #ff4f4c;
+}
+.trailor_carousel .owl-controls .owl-dots {
+	position: absolute;
+	right: -70px;
+	top: 50%;
+	transform: translateY(-50%);
+}
