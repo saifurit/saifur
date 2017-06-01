@@ -1,0 +1,134 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+.testimonial_bg {
+	background: url(assets/img/testimonial-slider-background-black.jpg);
+	background-color: #333;
+	color: #fff;
+}
+.user_avator img {
+	max-width: 100px;
+	border-radius: 50%;
+	margin: 0 auto 15px;
+}
+
+.testimonial_content {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+}
+.single_testimonial h4 {
+    margin-bottom: 0;
+    margin-top: 30px;
+    opacity: 0.7;
+}
+.single_testimonial {
+    text-align: center;
+}
+.single_testimonial h4 span {
+    display: block;
+    font-size: 80%;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.testimonial_slide .owl-dots div {
+    background: #2e4450 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin: 5px;
+    width: 15px;
+}
+.testimonial_slide .owl-dots div.active {
+    background: #fff none repeat scroll 0 0;
+}
+.testimonial_slide .owl-dots {
+    margin-top: 40px;
+    text-align: center;
+}
+.testimonial_slide::before, .testimonial_slide::after {
+	position: absolute;
+	font-family: fontAwesome;
+	font-size: 30px;
+}
+.testimonial_slide::before {
+	left: -50px;
+	top: 100px;
+	content: "\f10d";
+}
+.testimonial_slide::after {
+	right: -50px;
+	bottom: 120px;
+	content: "\f10e";
+}
