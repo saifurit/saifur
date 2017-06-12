@@ -1,0 +1,97 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+	.logo a {
+		color: red;
+	}
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo a {
+		color: green;
+	}
+
+}
+
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+	
+	.logo a {
+		color: blue
+	}
+	
+	.logo, .mainmenu {
+	  text-align: center;
+	}
+	.hero_content {
+		text-align: center;
+	}
+	.hero_content > h1 {
+	  font-size: 25px;
+	}
+	.copyright, .social_icon {
+	  padding: 8px;
+	  text-align: center;
+	}
+	.header_ara {
+	  padding: 50px 50px 0;
+	}
+	.hero_content {
+	  width: 100%;
+	  padding-bottom: 40px;
+	  padding-top: 40px;
+	}
+	
+	.copyright {
+	  font-size: 12px;
+	}
+	
+	.social_icon a {
+	  font-size: 17px;
+	  padding-left: 12px;
+	}
+	
+	.bordered_area::after {
+	  left: -50px;
+	  width: calc(100% + 100px);
+	}
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.logo a {
+		color: yellow
+	}
+
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
