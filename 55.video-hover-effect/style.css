@@ -1,0 +1,330 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+ 
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+.service_item_bg {
+	background-image: url(assets/img/service-1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ddd;
+	height: 270px;
+	position: relative;
+	z-index: 1;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.service_item_bg:hover {
+	background-size: 110% 110%;
+}
+.service_box_two {
+	background-image: url(assets/img/service-2.jpg);
+}
+.service_box_bg_three {
+	background-image: url(assets/img/service-3.jpg);
+}
+
+.section_title {
+    color: #848484;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.section_title h1 {
+    color: #212121;
+    text-transform: uppercase;
+}
+.section_title h1 span {
+    color: #11cad0;
+}
+
+.service_item_bg i {
+    background: #25375b none repeat scroll 0 0;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    bottom: -40px;
+    color: #fff;
+    display: block;
+    height: 80px;
+    left: 50%;
+    line-height: 74px;
+    margin-left: -40px;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.service_item_bg i::before {
+    font-size: 30px;
+    margin: 0;
+}
+.single_service_item {
+    border: 2px solid #e5e5e5;
+    border-radius: 5px 5px 0 0;
+	display: block;
+	color: #212121
+}
+.single_service_item h3 {
+    color: #212121;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    text-transform: uppercase;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.single_service_item:hover .service_item_bg i {
+	background: #11cad0;
+	border-color: #25375B;
+}
+.single_service_item:hover h3 {
+	background-color: #25375b;
+	color: #fff;
+}
+
+/*Menu CSS*/
+
+.mainmenu_area {
+    background: #25375b none repeat scroll 0 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+	position: relative;
+}
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 22px;
+    text-transform: uppercase;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.mainmenu ul li:hover > a {
+	background: #11cad0
+}
+.mainmenu ul li ul {
+    background: #25375b none repeat scroll 0 0;
+    left: 0px;
+    position: absolute;
+    top: 72px;
+    width: 200px;
+    z-index: 9;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.mainmenu ul li ul li {
+    border-right: 0 none;
+    display: block;
+}
+.mainmenu ul li ul li a {
+    padding-bottom: 10px;
+    padding-top: 10px;
+	-webkit-transition: .3s;
+	transition: .3s;
+	text-transform: capitalize;
+	
+}
+.mainmenu ul li:hover ul {
+	opacity: 1;
+	visibility: visible;
+	top: 52px;
+}
+.mainmenu ul li ul li:hover > a {
+	background-color: #11cad0;
+}
+/*Multi Lavel Menu Css*/
+.mainmenu ul ul li ul {
+	left: 200px;
+}
+.mainmenu ul li:hover ul ul {
+	opacity: 0;
+	visibility: hidden;
+}
+.mainmenu ul ul li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	top: 0;
+}
+.mainmenu i.fa {
+	float: right;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.mainmenu ul ul li:hover i.fa {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg)
+}
+
+/*video hover section*/
+.video_area_bg {
+	background-image: url("https://img.youtube.com/vi/Y5WpeM488xY/hqdefault.jpg");
+	height: 300px;
+	background-size: 120% 140%;
+	background-position: center center;
+	background-color: #ddd;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+
+.video_overlay {
+    display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	padding: 50px;
+	-webkit-transition: .3s;
+	transition: .3s;
+	-webkit-transform: scale(.7);
+	transform: scale(.7);
+	opacity: 0;
+	visibility: hidden;
+}
+.video_area_bg:hover {
+	background-size: 130% 150%;
+}
+.video_area_bg:hover .video_overlay {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+	visibility: visible;
+}
+
+.video_overlay::after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #D0475D;
+	opacity: .8;
+	z-index: -1;
+}
+.video-play-btn {
+    color: #fff;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.video-play-btn:hover {
+	color: #fff;
+}
+
+.boxed_plus {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 300;
+    height: 40px;
+    line-height: 38px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 40px;
+}
+.video_overlay p {
+    opacity: 0.7;
+	font-size: 15px;
+}
+.video_overlay p.video_top_desc {
+    opacity: 1;
+}
+
+.video_overlay > h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.video_top_desc > span {
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+.video_top_desc > span::after, .video_top_desc > span::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: -45px;
+    top: 10px;
+    width: 50px;
+}
+.video_top_desc > span::before {
+	right: auto;
+	left: -45px;
+}
