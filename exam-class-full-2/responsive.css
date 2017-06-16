@@ -1,0 +1,155 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+	.logo a {
+		color: green;
+	}
+	.theme_two .header_area {
+		padding-top: 0;
+	}
+	.slide_text h1 {
+	  font-size: 38px;
+	}
+	.theme_two .footer_area {
+	  margin-top: 50px;
+		padding: 10px;
+	}
+	
+	.theme_two .slide_text {
+		font-size: 16px;
+	}
+	.theme_two .slide_text h1 {
+		font-size: 35px;
+	}
+	
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo a {
+		color: red;
+	}
+	
+	.slide_text h1 {
+	  font-size: 35px;
+	}
+	
+	.slide_text {
+	  font-size: 16px;
+		width: 80%;
+	}
+	.mainmenu {
+		font-size: 18px;
+	}
+	.mainmenu ul li {
+	  padding-left: 20px;
+	}
+	
+}
+
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+	
+	.logo a {
+		color: cyan;
+	}
+	.header_area {
+		padding: 0 0 50px;
+		position: relative;
+		text-align: center;
+	}
+	.mainmenu {
+		text-align: center;
+    	font-size: 12px;
+	}
+
+	.footer_area {
+		position: relative;
+		text-align: center;
+ 		padding: 40px 15px 15px;
+	}
+	.social_links {
+		padding: 0;
+		text-align: center;
+	}
+	.copyright_text {
+		padding: 0;
+	}
+	.site_wrap_table, .site_wrap_tablecell {
+		display: block;
+	}
+	.slide_text {
+	  font-size: 12px;
+	  padding-bottom: 50px;
+	  padding-top: 30px;
+	  text-align: center;
+	  width: 100%;
+	  padding-left: 0;
+	}
+	.site_wrap {
+		padding: 15px;
+	}
+	.theme_one, .theme_two {
+	  height: auto;
+	}	
+	.mainmenu ul li {
+		padding-left: 12px;
+	}
+	.slide_text h1 {
+		font-size: 20px;
+	}
+
+	
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.logo a {
+		color: yellow
+	}
+	
+	.slide_text h1 {
+	  font-size: 30px;
+	}
+	.slide_text  {
+	  font-size: 15px;
+	}
+
+	
+	.theme_two .footer_area {
+	  margin-top: 0px;
+		padding: 10px;
+	}
+	
+	
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
