@@ -1,0 +1,188 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+.section_title {
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+.single_testimonial_item img {
+    display: inline-block;
+    margin-top: -25px;
+    max-height: 100px;
+    max-width: 100px;
+}
+.testimonial_top {
+	padding-bottom: 30px;
+	padding-top: 50px;
+	color: #333;
+}
+.testimonial_top h4 {
+    display: inline-block;
+    font-weight: 400;
+    padding-left: 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.testimonial_top h4 span {
+    display: inline-block;
+    font-size: 80%;
+    opacity: 0.5;
+    padding-top: 7px;
+    text-transform: none;
+}
+
+.single_testimonial_item {
+    -webkit-box-shadow: 0 5px 5px 0;
+    box-shadow: 0 5px 5px 0;
+    color: #888;
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 40px 80px;
+}
+
+.testimonial_author_name img {
+    border-radius: 50%;
+    display: inline-block;
+    height: 70px;
+    margin-top: -15px;
+    width: 70px;
+}
+.testimonial_author_name h4 {
+    display: inline-block;
+    font-size: 16px;
+    max-width: 188px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.testimonial_author_name h4 span {
+    display: inline-block;
+    font-size: 80%;
+    opacity: 0.5;
+    padding-top: 8px;
+    text-transform: none;
+}
+.testimonial_author_name li a {
+    color: #333;
+}
+.testimonial_author_name li {
+    margin-bottom: 0;
+    padding-top: 30px;
+	opacity: .5;
+	-webkit-transition: .9s;
+	transition: .9s;
+}
+.testimonial_author_name li.active {
+	opacity: 1;
+}
+.testimonial_author_name {
+    height: 290px;
+/*	overflow-y: scroll;*/
+	padding-left: 40px;
+}
+
+.testimonial_title_wrap {
+    position: relative;
+}
+.testimonial_right_title {
+    color: #ecebeb;
+    font-size: 40px;
+    left: -260px;
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 120px;
+	width: 450px;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg)
+}
+.testimonial_right_title::after {
+    background: #ecebeb none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.testimonial_right_title span {
+    background: #fff none repeat scroll 0 0;
+    padding-right: 20px;
+    position: relative;
+    z-index: 2;
+}
+.ps > div.ps__scrollbar-y-rail {
+	opacity: 1;
+	left: 0;
+}
