@@ -1,0 +1,467 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: 'Khula', sans-serif;
+	font-size: 15px;
+	color: #999;
+	line-height: 26px;
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: inherit;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+	color: #373737;
+	font-weight: 400;
+}
+h2 {
+	font-size: 28px;
+	line-height: 40px;
+}
+h3 {
+	font-size: 22px;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 115px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+/*Start Header Area*/
+.mainmenu ul li {
+    display: inline-block;
+}
+.mainmenu ul li a {
+    color: #888;
+    display: block;
+    padding: 11px 16px;
+}
+.mainmenu ul li a:hover {
+	color: #ef476f;
+}
+.boxed_btn, input[type="submit"], button[type="submit"] {
+    background: #ef476f none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 12px 22px;
+    text-transform: capitalize;
+	border: none;
+}
+.boxed_btn:hover {
+	color: #fff
+}
+.hero_area {
+    border-bottom: 1px solid #f6f6f6;
+    font-weight: 400;
+    padding: 140px 0;
+}
+.hero_area h1 {
+    font-size: 40px;
+    max-width: 470px;
+	margin-bottom: 25px;
+	padding-top: 20px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="url"], input[type="submit"], input[type="tel"], textarea {
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+}
+input[type="submit"], button[type="submit"] {
+    padding: 11px 25px;
+	font-weight: 400;
+}
+
+.website_cheaker_form {
+    margin-top: 40px;
+}
+.header_area {
+	padding: 20px 0;
+}
+/*End Header Area*/
+
+/*Start Service Area*/
+.section_title h2 {
+    font-size: 28px;
+}
+.section_title {
+    margin-bottom: 90px;
+}
+.single_service_box {
+    border: 1px solid #f3f3f3;
+    font-weight: 300;
+    line-height: 1.7;
+    padding: 25px;
+	margin-bottom: 50px;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.service_icon {
+    color: #231f20;
+    font-size: 30px;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.single_service_box h4 {
+    font-size: 20px;
+    margin: 15px 0;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.service_readmore_btn {
+    color: #373737;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.service_readmore_btn i.zmdi {
+    padding-left: 10px;
+}
+.single_service_box:hover {
+	border: 1px solid #ef476f;
+}
+.single_service_box:hover h4, .single_service_box:hover a.service_readmore_btn, .single_service_box:hover .service_icon {
+	color: #ef476f
+}
+.pdt_50 {
+    padding-top: 50px;
+}
+.pdt_50 .boxed_btn {
+  margin-top: 20px;
+}
+/*End Service Area*/
+
+/*Start Case Study Area*/
+.gray_bg {
+	background-color: #fbfbfb
+}
+.single_case_study {
+    background-color: #e6e6e6;
+    display: table;
+    height: 320px;
+    width: 100%;
+	background-image: url(assets/img/case_study_bg_1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+.case_study_bg_2 {
+	background-image: url(assets/img/case_study_bg_2.jpg);
+}
+.case_study_bg_3 {
+	background-image: url(assets/img/case_study_bg_1.jpg);
+}
+.case_study_bg_4 {
+	background-image: url(assets/img/case_study_bg_2.jpg);
+}
+.case_study_wrapper {
+    background: #ef476f none repeat scroll 0 0;
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 16px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.single_case_study:hover .case_study_wrapper {
+	opacity: 1;
+	visibility: visible;
+}
+.case_study_wrapper h4 {
+    font-size: 17px;
+}
+.case_study_wrapper h3, .case_study_wrapper h4 {
+    color: #fff;
+}
+.case_study_btn {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	color: #333;
+	margin-top: 10px;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.case_study_btn:hover {
+	background: #e6e6e6;
+	color: #ef476f
+}
+.case_study_carousel.owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+.overflow_x_hidden {
+    overflow-x: hidden;
+}
+/*End Case Study Area */
+
+/*Defauld Owl-Carousel Dots style Start Here */
+
+.owl-dots div {
+    background: #e2e2e2 none repeat scroll 0 0;
+    display: inline-block;
+    height: 3px;
+    margin: 5px;
+    width: 30px;
+}
+.owl-dots div.active {
+    background: #ef476f none repeat scroll 0 0;
+}
+.owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
+/*Defauld Owl-Carousel Dots style End Here */
+/*Start Testimonial Area */
+.single_testimonial_item {
+    text-align: center;
+}
+.testimonial_content {
+    color: #373737;
+    font-size: 24px;
+    line-height: 36px;
+}
+.testimonial_meta img, .owl-carousel .owl-item .testimonial_meta img {
+    border-radius: 50%;
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+}
+.testimonial_meta {
+    color: #999;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.testimonial_meta h4 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.testimonial_carousel .owl-dots {
+    margin-top: 40px;
+}
+.call_to_action_area h2 {
+    margin: 0;
+    padding-top: 10px;
+}
+.call_to_action_area {
+    padding: 60px 0;
+}
+/*End Testimonial Area*/
+
+/*Start Pricing Area */
+
+.single_pricing_box {
+    border: 1px solid #f3f3f3;
+    margin-bottom: 70px;
+    padding: 35px;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.pricing_content {
+    font-size: 17px;
+    line-height: 2.5;
+}
+.pricing_heading h4 {
+    font-size: 20px;
+}
+.pricing_heading {
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.pricing_count {
+    color: #ef476f;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 45px;
+}
+.pricing_content ul {
+    margin: 0 0 30px;
+}
+.pricing_content ul li {
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.pricing_content ul li:hover {
+	padding-left: 5px;
+}
+.pricing_content .boxed_btn {
+    line-height: 26px;
+}
+.single_pricing_box:hover {
+	border-color:  #ef476f;
+}
+.single_pricing_box:hover .pricing_heading {
+	border-color: #ef476f;
+}
+/*End Pricing Area */
+
+/*Start Logo Carousel Area*/
+.single_logo_item {
+    display: table;
+    height: 90px;
+    width: 100%;
+}
+.logo_item_inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+/*End Logo Carousel Area*/
+
+/*Start Footer Area*/
+.footer_area h4 {
+    font-size: 20px;
+}
+.footer_area, .footer_area a {
+    color: #999;
+}
+.footer_area ul {
+    line-height: 3;
+}
+.email_subcribe_form input[type="email"] {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border-color: #f6f6f6;
+    margin-right: -5px;
+    width: 70%;
+}
+.email_subcribe_form input[type="submit"] {
+    border-radius: 0 5px 5px 0;
+    padding: 11px;
+    width: 30%;
+}
+.email_subcribe_form {
+    margin-bottom: 40px;
+}
+.footer_area ul.social_links li {
+  display: inline-block;
+  padding-left: 22px;
+  position: relative;
+  width: 30%;
+}
+.footer_area ul.social_links i.zmbi {
+	padding-right: 5px;
+}
+.social_links li i.zmdi {
+  left: 0;
+  position: absolute;
+  top: 15px;
+}
+.footer_area li a:hover, .social_links li a:hover {
+	color: #ef476f;
+}
+.copyright_area {
+  background: #f7f7f7 none repeat scroll 0 0;
+  padding: 15px 0;
+}
+
+
+
+.hero_form {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #999;
+    padding: 40px 50px;
+    position: relative;
+    z-index: 1;
+}
+.hero_form::after {
+    background: rgba(248, 248, 248, 0.2) none repeat scroll 0 0;
+    border-radius: 5px;
+    content: "";
+    height: 100%;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+
+.hero_form_header {
+    font-size: 14px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.hero_form_header h3 {
+    font-size: 22px;
+}
+.hero_form input {
+    width: 100%;
+}
+.hero_form input[type="submit"] {
+    display: block;
+    margin: 50px auto 0;
+    width: 130px;
+}
