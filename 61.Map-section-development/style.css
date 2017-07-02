@@ -1,0 +1,146 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 100px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+
+.map_bg {
+	background-color: #33384E;
+	color: #fff;
+	padding-bottom: 0;
+	margin-bottom: 100px;
+}
+.map {
+  height: 500px;
+  width: 100%;
+  -webkit-box-shadow: 0 0 10px #ebebeb;
+  box-shadow: 0 0 10px #ebebeb;
+  margin-bottom: -130px;
+}
+
+.setion_title {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.section_desc {
+    color: #ddd;
+    font-size: 120%;
+    line-height: 2;
+}
+.section_desc strong {
+    color: #fff;
+}
+
+.location_direction {
+	margin-left: 50px;
+}
+.location_direction li h3 {
+    color: #cf9636;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+}
+.location_direction li h3 span {
+    font-size: 60%;
+    font-weight: 300;
+    position: absolute;
+    right: -35px;
+    top: 8px;
+}
+.location_direction p {
+    font-weight: 400;
+    opacity: 0.6;
+    text-transform: uppercase;
+	font-size: 13px;
+}
+.location_direction li {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.location_direction li:last-child {
+  margin-bottom: 0px;
+}
+.location_direction li::after {
+    background: #505369 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 70px;
+}
+.location_direction li:last-child::after {
+    background: transparent none repeat scroll 0 0;
+}
