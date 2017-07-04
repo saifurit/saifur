@@ -1,0 +1,102 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #767676;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+	color: #404184;
+    font-weight: 400;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*
+.section_padding {
+	padding: 80px 0;
+}
+*/
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+
+.section_title {
+    margin-bottom: 120px;
+}
+.section_title img {
+    margin-bottom: 10px;
+}
+
+.service_items {
+    position: relative;
+	padding-bottom: 135px;
+	padding-top: 40px;
+}
+.single_service {
+	padding: 0 20px;
+}
+.absolute_mobile {
+    bottom: 0px;
+    position: absolute;
+    right: -80px;
+}
