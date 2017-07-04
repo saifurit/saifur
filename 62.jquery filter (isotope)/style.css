@@ -1,0 +1,195 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+
+.project_bg_1 {
+	background-image: url(assets/img/filter-1.jpg);
+}
+.project_bg_2 {
+	background-image: url(assets/img/filter-2.jpg);
+}
+.project_bg_3 {
+	background-image: url(assets/img/filter-3.jpg);
+}
+.project_bg_4 {
+	background-image: url(assets/img/filter-4.jpg);
+}
+.project_bg_5 {
+	background-image: url(assets/img/filter-1.jpg);
+}
+.project_bg_6 {
+	background-image: url(assets/img/filter-2.jpg);
+}
+.project_bg_7 {
+	background-image: url(assets/img/filter-3.jpg);
+}
+.project_bg_8 {
+	background-image: url(assets/img/filter-4.jpg);
+}
+.project_bg_9 {
+	background-image: url(assets/img/filter-1.jpg);
+}
+.single_project_item {
+	background-color: #ddd;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 300px;
+	display: table;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 1;
+}
+.single_project_item::before, .single_project_item::after {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 80px;
+	z-index: 2;
+}
+.single_project_item::before {
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	left: 0;
+	bottom: 0;
+}
+.single_project_item::after {
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+	right: 0;
+	top: 0;
+}
+.project_hover {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 15px;
+	color: #333;
+	position: relative;
+	z-index: 1;
+	text-transform: lowercase;
+	-webkit-transform: scale(.5);
+	transform: scale(.5)
+}
+.single_project_item::before, .single_project_item::after, .project_hover {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.single_project_item:hover::before, .single_project_item:hover::after, .single_project_item:hover .project_hover {
+	opacity: 1;
+	visibility: visible;
+	
+}
+.single_project_item:hover .project_hover {
+	-webkit-transform: scale(1);
+	transform: scale(1)
+}
+.project_hover p:last-child {
+	margin-bottom: 0;
+}
+.project_hover::after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	z-index: -1;
+	opacity: .5;
+}
+.project_filter {
+    margin-bottom: 40px;
+}
+.project_filter li {
+    border-bottom: 2px solid #fff;
+    color: #777;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 15px;
+}
+.project_filter li.active {
+    border-color: #333;
+}
+.project_hover h3 {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+	font-weight: 700;
+}
