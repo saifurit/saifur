@@ -1,0 +1,99 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+
+
+.service_list {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.single_service_item {
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 50px 20px;
+	min-height: 258px;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.single_service_item:hover {
+	-webkit-box-shadow: 0 0 50px #999;
+	box-shadow: 0 25px 50px #999;
+}
+.single_service_item:hover .service_icon {
+	color: #D01F1C;
+}
+.service_list .col-md-4 {
+    padding: 0;
+}
+.service_list .row {
+    margin: 0;
+}
+.single_service_item p:last-child {
+    margin-bottom: 0;
+}
+.service_icon {
+    font-size: 30px;
+    margin: 20px 0;
+	color: #DCDCDC;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.single_service_item h3 {
+    text-transform: uppercase;
+}
