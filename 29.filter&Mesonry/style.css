@@ -1,0 +1,173 @@
+/*
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: 100%;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #fff;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+.section_padding {
+	padding: 50px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+.single_project_bg_1 {
+	background: url(img/1.jpg);
+}
+.single_project_bg_2 {
+	background: url(img/2.jpg);
+}
+.single_project_bg_3 {
+	background: url(img/4.jpg);
+}
+.single_project_bg_4 {
+	background: url(img/5.jpg);
+}
+.single_project_bg_5 {
+	background: url(img/1.jpg);
+}
+.single_project_bg_6 {
+	background: url(img/6.jpg);
+}
+.single_project_bg_7 {
+	background: url(img/7.jpg);
+}
+.single_project_bg_8 {
+	background: url(img/6.jpg);
+}
+.single_project_bg_9 {
+	background: url(img/5.jpg);
+}
+.single_project_item {
+	background-color: #ddd;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	margin-bottom: 15px;
+}
+.project_title ul {
+    list-style: outside none none;
+    margin: 0 0 50px;
+    padding: 0;
+}
+.project_title ul li {
+    display: inline-block;
+    padding-right: 20px;
+	cursor: pointer;
+}
+.single_project_item a, .single_project_item span {
+	color: #01e9e3;
+	display: block;
+}
+.project_title li.active {
+	color: #01e9e3;
+}
+.row.project_list .col-md-4 {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+.row.project_list {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+
+.project_hover {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+	opacity: 0;
+	transition:all 0.5s ease 0s;
+	-moz-transition:all 0.5s ease 0s;
+	-webkit-transition:all 0.5s ease 0s;
+	-o-transition:all 0.5s ease 0s;
+}
+.project_hover::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.project_hover i.fa {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.project_hover h4 {
+    bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    left: 30px;
+    position: absolute;
+    text-transform: uppercase;
+}
+.project_hover h4 span {
+	font-weight: 400;
+	text-transform: capitalize;
+	margin-top: 10px;
+}
+.single_project_item:hover .project_hover {
+	opacity: 1;
+}
+
+.row.project_list .col-md-4:nth-child(2) .single_project_item,
+.row.project_list .col-md-4:nth-child(4) .single_project_item,
+.row.project_list .col-md-4:nth-child(6) .single_project_item {
+	height: 615px;
+}
