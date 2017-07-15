@@ -1,0 +1,172 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	background: #ddd;
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+
+/*Menu css*/
+.menu_area {
+    background: #fff;
+}
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu li a {
+  color: #333;
+  padding: 15px 20px;
+  display: block;
+  font-size: 18px;
+}
+
+/*Dropdown Css*/
+.mainmenu li ul {
+  position: absolute;
+  left: 0;
+  top: 70px;
+  width: 200px;
+  background: #fff;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.mainmenu li ul li {
+  display: block;
+}
+.mainmenu li:hover ul {
+  top: 55px;
+  opacity: 1;
+  visibility: visible;
+}
+.mainmenu li li a {
+  padding: 10px 20px;
+}
+.mainmenu li:hover > a {
+  color: aqua;
+}
+.mainmenu li:hover li:hover > a {
+    background-color: #00A486;
+    color: #fff;
+}
+
+/*Mega Menu Css*/
+
+.mainmenu li.mega_menu {
+  position: static;
+}
+.mega_menu_wrap {
+    background: #fff;
+    width: auto;
+    position: absolute;
+    box-shadow: 0 0 5px #f6f6f6;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    top: 75px;
+    transition: .3s;
+    z-index: -1;
+}
+.mainmenu li.mega_menu:hover .mega_menu_wrap {
+    opacity: 1;
+    visibility: visible;
+    top: 55px;
+    z-index: 9;
+}
+.mainmenu li.mega_menu ul {
+  opacity: 1;
+  visibility: visible;
+  top: auto;
+  position: relative;
+  left: auto;
+  width: auto;
+}
+.menu_cta .boxed_btn {
+	display: inline-block;
+	background: #008000;
+	padding: 10px 20px;
+	border-radius: 2px;
+	margin-top: 10px;
+	font-size: 16px;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.menu_cta h4 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: .5;
+}
+.menu_cta {
+  text-align: center;
+}
