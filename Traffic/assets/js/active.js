@@ -69,6 +69,12 @@
 			$('.off_canvas_menu_shade').removeClass('active');
 		});
         
+        
+        
+        // magnific popup for video
+		$('.video-play-btn').magnificPopup({
+			type: 'video',
+		});
 	});
 	
 	
