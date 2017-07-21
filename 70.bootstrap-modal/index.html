@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Saifur Rahman">
+		
+		<!-- Title -->
+		<title>Bootstrap Modal</title>
+		<!-- All CSS Here -->
+		<!-- 
+		<link rel="shortcut icon" href="image/favicon.jpeg" type="image/x-icon" />
+		-->
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- Font Awesome CSS -->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="responsive.css">
+		<!-- Modernizr CSS -->
+		<link rel="stylesheet" href="assets/js/vendor/modernizr-2.8.3.min.js">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->	
+		<!-- [if It IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	    
+	    <div class="modal fade" id="mymodal">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2>Hello World!</h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>Welcome to our website.</p>
+                    </div>
+		        </div>
+		    </div>
+		</div>
+	
+		<div class="left_side text-center">
+		    <div class="logo">
+		        <a href="">rusty</a>
+		    </div>
+		    
+		    <div class="mainmenu">
+		        <ul>
+		            <li class="active"><a href="">Home</a></li>
+		            <li><a href="">About me</a></li>
+		            <li><a href="">My works</a></li>
+		            <li><a href="">Services</a></li>
+		            <li><a href="">Contact</a></li>
+		        </ul>
+		    </div>
+		    
+		    <div class="left_side_social_links">
+		        <a href=""><i class="fa fa-facebook"></i></a>
+		        <a href=""><i class="fa fa-twitter"></i></a>
+		        <a href=""><i class="fa fa-linkedin"></i></a>
+		        
+		        <div class="copyright">
+		            <p>&copy; 2016<a href="">freelancer</a>, all rights reserved.</p>
+		        </div>
+		    </div>
+		</div>
+		
+		<div class="right_side">
+		    <div class="right_side_table">
+		        <div class="right_side_wrap">
+                    <div class="right_side_text">
+                        <h1>Hello <span>everyone</span></h1>
+                        <p>Create website easer then ever before.</p>
+
+                        <a data-toggle="modal" data-target="#parchase_modal" href="" class="boxed_btn">Purchase now</a>
+
+                        <i class="fa fa-long-arrow-down"></i>
+                    </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="modal fade" id="parchase_modal">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		                <h2>Thank you for parchasing our product</h2>
+		            </div>
+		            <div class="modal-body">
+		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos asperiores ipsa cupiditate quidem ad est, expedita enim esse quasi cumque.</p>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		
+		<div class="modal fade" id="big_img_modal">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		                <h2>Preview</h2>
+		            </div>
+		            <div class="modal-body">
+		                <img src="assets/img/bg-1.jpg" alt="">
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		
+		<div class="section_padding">
+		    <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h1>Click to the image</h1>
+                    </div>
+                </div>
+		        <div class="row">
+		            <div class="col-md-4 col-md-offset-2">
+		                <div class="single_img" data-toggle="modal" data-target="#big_img_modal">
+		                    <img src="assets/img/bg-1.jpg" alt="">
+		                </div>
+		            </div>
+		            <div class="col-md-4">
+		                <div class="single_img" data-toggle="modal" data-target="#big_img_modal">
+		                    <img src="assets/img/bg-1.jpg" alt="">
+		                </div>
+		            </div>
+		            
+		            <div class="col-md-2">
+		                <h2>Overview</h2>
+		                <ul>
+		                    <li>Reload the Web and see the result</li>
+		                    <li>Click the Parchase Button and see the result</li>
+		                    <li>Click to the Images and see the result</li>
+		                </ul>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		
+
+
+		<!-- JQuery latest Version -->
+		<!-- CDN Version
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		-->
+		<script type="text/javascript" src="assets/js/jquery-1.12.4.min.js"></script>
+		<!-- Bootstrap Js -->
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<!-- Main Js -->
+		<script type="text/javascript" src="assets/js/active.js"></script>
+	</body>
+</html>

@@ -1,0 +1,223 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+
+
+
+.left_side {
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background: #333;
+  color: #fff;
+}
+.right_side {
+  margin-left: 20%;
+  overflow-x: hidden;
+  height: 100%;
+}
+.right_side_table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.right_side_wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.boxed_btn {
+  background: #ddd;
+  display: inline-block;
+  padding: 15px 40px;
+  border-radius: 50px;
+  margin-top: 45px;
+    color: #333;
+    text-transform: uppercase;
+}
+.right_side_text {
+    position: relative;
+    padding: 10%;
+    color: #fff;
+    font-size: 18px;
+}
+.right_side_text span {
+    color: #FFB607;
+}
+.right_side_text i.fa {
+  display: block;
+  position: absolute;
+  bottom: -20%;
+  left: 10%;
+  font-size: 35px;
+  font-weight: 300;
+}
+.right_side_text h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+.right_side {
+    background: url(assets/img/bg-1.jpg) no-repeat scroll center center / cover;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.right_side::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    z-index: -1;
+    opacity: .7;
+}
+
+
+.left_side a, .left_side {
+  color: #fff;
+}
+.logo {
+  font-size: 40px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin: 35px 0 60px;
+}
+.logo::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  width: 120px;
+  height: 120px;
+  background: #ddd;
+  z-index: -1;
+  border-radius: 50%;
+  margin-left: -60px;
+  margin-top: -60px;
+  opacity: .4;
+}
+
+
+.mainmenu li {
+  display: block;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.mainmenu li a {
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: .3s;
+  position: relative;
+    padding-bottom: 10px;
+}
+.mainmenu li a::after, .mainmenu li.active a::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: #FFB607;
+    margin-left: -25px;
+    opacity: 0;
+    transition: .3;
+}
+.mainmenu li.active a, .mainmenu li:hover a {
+  color: #FFB607;
+}
+.mainmenu li a:hover::after, .mainmenu li.active a::after {
+    opacity: 1;
+}
+
+
+.left_side_social_links a {
+    padding: 10px;
+}
+.left_side_social_links {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 100%;
+	margin-left: -50%;
+	font-size: 18px;
+	line-height: 2;
+    text-transform: capitalize
+}
+.copyright a {
+    color: #FFB607
+}
+
+
+.single_img {
+    cursor: pointer;
+}

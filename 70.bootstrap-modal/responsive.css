@@ -1,0 +1,106 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+	
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.column {
+		width: 750px;
+	}
+
+}
+
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+	
+	.right_side_text h1 {
+        font-size: 30px
+    }
+    .right_side_text {
+        font-size: 14px;
+    }
+    .boxed_btn {
+        padding: 15px;
+        font-size: 10px;
+    }
+    .right_side_text i.fa {
+        
+        font-size: 20px;
+    }
+    .logo {
+        font-size: 16px;
+        margin: 35px 0;
+    }
+    .logo::after {
+        width: 60px;
+        height: 61px;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+    .mainmenu li {
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .mainmenu li a, .copyright {
+        font-size: 12px;
+    }
+    .mainmenu li a::after, .mainmenu li.active a::after {
+        bottom: -15px;
+    }
+    .left_side_social_links {
+        position: relative;
+    }
+    .left_side {
+        width: 30%;
+        padding: 0 5px
+    }
+    .right_side {
+        width: 70%;
+        margin-left: 30%
+    }
+    
+    
+    
+    
+	
+}
+
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.column {
+		width: 450px;
+	}
+
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
