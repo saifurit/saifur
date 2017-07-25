@@ -1,0 +1,148 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.service_box_bg_1{
+    background-image: url(assets/img/crop_1.jpg);
+}
+.service_box_bg_2{
+    background-image: url(assets/img/crop_2.jpg);
+}
+.service_box_bg_3{
+    background-image: url(assets/img/crop_3.jpg);
+}
+.service_box_bg{
+    background-size: cover;
+    background-position: center center;
+    background-color: #ddd;
+    height: 250px;
+}
+.service_box_inner{
+    border: 2px solid #F7F6F7;
+    border-top: 0 solid;
+    padding: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.service_box_inner h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.service_meta{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: .5;
+    padding: 0;
+}
+.single_service_box{
+    position: relative;
+}
+.service_box_more_wrap {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    text-align: center;
+    width: 100%;
+}
+.box_btn {
+    display: inline-block;
+    color: #999;
+    border: 2px solid #F7F6F7;
+    padding: 10px 20px;
+    background: #fff;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
