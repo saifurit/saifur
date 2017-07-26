@@ -1,0 +1,151 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	background: #F6F5F6;
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+.section_title{
+    margin-bottom: 55px;
+}
+.section_title h1{
+    color: #3CDDFD;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.section_title h1 span{
+    color: #3CDDFD;
+    font-weight: 700;
+}
+.section_title_sep{
+    height: 2px;
+    background: #3CDDFD;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 40px;
+}
+.section_title_sep:after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background: #3CDDFD;
+    left: 50%;
+    margin-left: -30px;
+    top: -1px;
+}
+.section_title p{
+    font-size: 14px;
+    color: #868586;
+}
+.single_team_box img{
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.single_team_box{
+    background: #fff;
+    padding: 35px;
+}
+.team_box_content{
+    text-align: center;
+}
+.box_text{
+    color:#A09FA0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.quote{
+    color: #0078D7;
+}
+.team_box_content h4{
+    font-size: 20px;
+    color: #0078D7;
+    font-weight: 700;
+}
+.team_box_content h5{
+    font-size: 15px;
+    color: #A09FA0;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
