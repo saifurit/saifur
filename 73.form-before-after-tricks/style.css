@@ -1,0 +1,185 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+.section_title h3 {
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.form_wrap {
+    background: url(assets/img/single-portfolio.jpg) no-repeat scroll center center / cover;
+    padding: 50px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.form_wrap::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #356DCA;
+    z-index: -1;
+    opacity: .8;
+}
+.form_wrap h3, h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.form_wrap {
+  font-size: 15px;
+  line-height: 1.7;
+}
+.boxed_form {
+    background: #fff;
+    margin-left: 100px;
+    color: #333;
+    padding: 50px;
+    text-align: center;
+}
+.boxed_form input, .boxed_form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.boxed_form textarea {
+    height: 100px;
+    resize: none;
+}
+.boxed_form {
+	margin-bottom: -120px;
+	box-shadow: 0 0 5px #ccc;
+}
+.boxed_btn {
+  display: block;
+  background: #009812;
+  color: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.boxed_btn:hover {
+    color: #fff;
+}
+
+/*Before After Tricks*/
+.contact_form {
+    position: relative;
+    padding: 80px;
+    color: #fff;
+}
+.contact_form_bg {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 78%;
+    background: url(assets/img/single-portfolio.jpg) no-repeat scroll center center / cover;
+    z-index: 1;
+}
+.contact_form_bg::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #356DCA;
+    z-index: -1;
+    opacity: .8;
+}
+.contact_form .row {
+    position: relative;
+    z-index: 2;
+}
+.boxed_white_form {
+    background: #fff;
+    margin-left: 100px;
+    color: #333;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 5px #ccc;
+}
+.boxed_white_form input, .boxed_white_form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.boxed_white_form textarea {
+    height: 100px;
+    resize: none;
+}
