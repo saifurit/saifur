@@ -1,0 +1,152 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.section-title{
+    margin-bottom: 20px;
+}
+.section-title h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2;
+    font-weight: 300;
+    color: #706F70;
+}
+.section-title p{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #B5B4B5;
+}
+.contact_form_content{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.contact_form {
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 2;
+    color: #B5B4B5;
+}
+.form_element {
+    position: relative;
+}
+.form_element label {
+    position: absolute;
+    left: 12px;
+    top: 0px;
+}
+.contact_form input[type="text"],
+.contact_form input[type="email"],
+.contact_form textarea{
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 10px;
+    padding-top: 18px;
+}
+.contact_form textarea{
+    max-height: 150px;
+}
+.contact_form input[type="submit"]{
+    float: right;
+    padding: 5px 20px;
+    font-size: 15px;
+    background: #7452FF;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.small_text {
+    font-size: 13px;
+    padding: 10px 0;
+    margin: 0;
+}
+.contact_form input[type="text"]:focus,
+.contact_form input[type="email"]:focus,
+.contact_form textarea:focus{
+    background-color: #F0EFF0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
