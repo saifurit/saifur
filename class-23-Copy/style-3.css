@@ -1,0 +1,38 @@
+html,body {
+  height: 100%;
+}
+.main-menu li:hover a,
+.inline-btn,
+.social-links li:hover a,
+.social-links li:hover a i,
+.single-services:hover h3,
+.single-services:hover .inline-btn {
+    color: #2ecc71;
+}
+.single-services:hover{
+    border-color: #2ecc71;
+}
+.boxed-btn,
+body input[type=submit],
+body input.boxed-btn,
+input[type=submit],
+button,
+.owl-dot.active,
+.case-study-hover-effect,
+.video-play-btn {
+    background-color: #2ecc71;
+    color: #fff;
+}
+.gradient-bg:after,
+.awesome-services-single:after,
+.awesome-case-study-preview::after{
+	background: #2c6aea;
+    background: -moz-linear-gradient(left, #2c6aea 0%, #18bfe6 100%);
+    background: -webkit-linear-gradient(left, #2c6aea 0%,#18bfe6 100%);
+    background: linear-gradient(to right, #2c6aea 0%,#18bfe6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c6aea', endColorstr='#18bfe6',GradientType=1 );
+}
+.website-checked-form {
+  margin-bottom: 115px;
+  overflow: hidden;
+}
