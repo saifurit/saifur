@@ -1,0 +1,190 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.service_box_bg_1{
+    background-image:url(assets/img/ser1.jpg);
+}
+.service_box_bg_2{
+    background-image:url(assets/img/ser2.jpg);
+}
+.service_box_bg_3{
+    background-image:url(assets/img/ser3.jpg);
+}
+.service_box_bg_4{
+    background-image:url(assets/img/ser4.jpg);
+}
+.service_box_bg_5{
+    background-image:url(assets/img/ser2.jpg);
+}
+.service_box_bg{
+    background-size: cover;
+    background-position: center top;
+    background-color: #ddd;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+.section_title {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.ticker {
+    right: 15px;
+    position: absolute;
+    top: 15px;
+    background: #00DDBE;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.icon_box {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    background: #fff;
+    width: 200px;
+    display: block;
+    margin-left: -100px;
+    color: #000;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.icon_box a {
+    display: block;
+    float: left;
+    color: #000;
+    width: 33.333%;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.service_box h4 {
+    margin-top: 30px;
+    text-align: center;
+}
+.service_box p {
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+.service_box:hover
+.icon_box{
+    opacity: 1;
+    visibility: visible;
+    bottom: 40px;
+}
+.icon_box a:hover {
+    background: #160C0B;
+    color: #fff;
+    border: 1px solid #160C0B;
+}
+.product_carousel .owl-nav div {
+    height: 30px;
+    width: 30px;
+    background: #333;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 28px;
+    left: -15px;
+    position: absolute;
+    top: 50%;
+    margin-top: -70px;
+    opacity: .6;
+}
+.product_carousel .owl-nav .owl-next{
+    left: auto;
+    right: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+

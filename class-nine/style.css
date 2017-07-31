@@ -1,0 +1,165 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+    background: #fff;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.section1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    font-weight: 700;
+}
+.section2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    font-weight: 700;
+}
+.service_box_bg_1:after{
+    background-image: url(assets/img/service1.jpg);
+}
+.service_box_bg_2:after{
+    background-image: url(assets/img/service2.jpg);
+}
+.service_box_bg_3:after{
+    background-image: url(assets/img/srevice3.jpg);
+}
+.service_box_bg_4:after{
+    background-image: url(assets/img/service4.jpg);
+}
+.section_padding{
+    z-index: 1;
+    position: relative;
+}
+.section_padding.service_box_bg_1:after, 
+.section_padding.service_box_bg_2:after,
+.section_padding.service_box_bg_3:after,
+.section_padding.service_box_bg_4:after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 56%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    height: 345px;
+}
+.section_padding.service_box_bg_2:after{
+    right: auto;
+    left: 0;
+}
+.service_content{
+    box-shadow: 0 0 4px #ccc;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+}
+.box_btn {
+    display: inline-block;
+    background: #FFC700;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.section_padding.service_box_bg_4:after{
+    right: auto;
+    left: 0;
+}
+.right_bg4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 93%;
+    width: 56%;
+    background: #000;
+    opacity: .5;
+}
+.right_bg3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 93%;
+    width: 56%;
+    background: #000;
+    opacity: .5;
+}
+
+
+
+

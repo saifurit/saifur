@@ -1,0 +1,189 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.section-padding{
+    padding: 80px 0;
+}
+.service_box_bg {
+    background-image: url(assets/img/news.jpg);
+    background-size: cover;
+    background-color: #fff;
+    background-position: center;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.service_box_bg:after {
+    left: 0;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #333;
+    opacity: .4;
+    content: "";
+}
+.service_box_bg h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.contact_form input[type="email"] {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background: #333;
+    opacity: .7;
+    width: 77%;
+    padding: 10px 30px;
+}
+.contact_form input[type="submit"] {
+    border: none;
+    border-radius: 50px;
+    background: #34B79D;
+    width: 22%;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.service_box_bg p{
+    font-style: italic;
+    margin-top: 15px;
+}
+.border_box {
+    overflow: hidden;
+    border-right: 1px solid #ddd;
+    margin-top: -140px;
+    position: relative;
+    z-index: 9;
+    background: #fff;
+}
+.single_border_box {
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 55px 50px;
+    min-height: 271px;
+}
+.single_border_box h3 {
+    margin-bottom: 22px;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.customer_name{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.single_border_box a {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 20px;
+}
+.service_content{
+    font-style: italic;
+    color:#A19FA0;
+    font-size: 15px;
+}
+.service_conten{
+    color:#A19FA0;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

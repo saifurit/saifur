@@ -1,0 +1,193 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.section-padding{
+    margin-top: 30px;
+}
+.author_img{
+    position: relative;
+}
+.author_img_hover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.author_img_hover:after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #EDEDED;
+    opacity: .8;
+    z-index: -1;
+}
+.social_icon a{
+    display: inline-block;
+    padding: 5px;
+    color: #919191;
+    font-size: 20px;
+}
+.author_img_hover_inner h2{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2;
+}
+.author_img_hover_inner p{
+    font-size: 15px;
+    letter-spacing: 2;
+    text-align: center;
+}
+.single_service_box h4{
+   margin-top: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4;
+    text-align: center;
+}
+.single_service_box span{
+    margin-top: 6px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+}
+.author_img_hover_wrap{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.author_img_hover_inner{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+}
+.single_service_box:hover
+.author_img_hover{
+    opacity: 1;
+    visibility: visible;
+}
+/*--section number2--*/
+
+.section-paddings{
+    margin-top: 20px;
+}
+
+.author_imge{
+    position: relative;
+}
+.author_img_hover1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition: .3s;
+}
+.author_img_hover1:after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #EDEDED;
+    opacity: .8;
+    z-index: -1;
+}
+.single_service_box:hover
+.author_img_hover1{
+    opacity: 1;
+    visibility: visible;
+     transform: scale(1);
+}
+
+
+
+
+
+
+
+
