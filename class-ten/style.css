@@ -1,0 +1,204 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.single_slide_bg_1{
+   background-image: url(assets/img/service1.jpg);
+}
+.single_slide_bg_2{
+   background-image: url(assets/img/service2.jpg);
+}
+.single_slide_bg_3{
+   background-image: url(assets/img/service4.jpg);
+}
+.single_slide {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 500px;
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: 1;
+}
+.slider_bg1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    z-index: -1;
+}
+.slider_inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.slider_text {
+    max-width: 550px;
+    color: #fff;
+    padding-left: 70px;
+}
+.slider_text h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+}
+.slider_text h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+}
+.box_btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.box_btn,.welcome_area:after{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,00bbff+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left, #1e5799 0%, #00bbff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #1e5799 0%,#00bbff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #1e5799 0%,#00bbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#00bbff',GradientType=1 ); /* IE6-9 */
+}
+.welcome_area {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.welcome_area::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60%;
+    content: "";
+    z-index: -1;
+}
+.logo a,.mainmenu a{
+    color: #fff;
+}
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px;
+}
+.logo i{
+    margin-right: 10px;
+}
+.mainmenu {
+    margin-top: 8px;
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu ul li{
+    display: inline-block;
+}
+.mainmenu ul li a {
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.header_right a{
+    color: #000;
+}
+.social_link {
+    margin-left: 15px;
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
+}
+.header_right {
+    font-size: 15px;
+    margin-right: 190px;
+    padding: 16px;
+}
+.owl-nav div {
+    color: #fff;
+    opacity: .5;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 23px;
+    font-size: 16px;
+}
+
+
+
+
+
