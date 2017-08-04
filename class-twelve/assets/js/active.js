@@ -2,7 +2,7 @@
 	"use strict";
 	
 	jQuery(document).ready(function($){
-		$('video-play-btn').modalVideo({
+		$('video-play-btn').magnificPopup({
             type:'video',
         });
 	});
