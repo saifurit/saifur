@@ -1,0 +1,246 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.header_area.header_absolute {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.header_area.header_absolute a {
+    color: #fff;
+}
+.slide_bg_1 {
+    background-image: url(assets/img/service4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.slide_bg_2 {
+    background-image: url(assets/img/service2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.slide_bg_3 {
+    background-image: url(assets/img/srevice3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.homepage_slides, .homepage_slides div{
+    height: 100%;
+}
+.homepage_slides .owl-controls, owl-controls div, .welcome_inner div, .homepage_slides .owl-nav, .homepage_slides .owl-nav div, .homepage_slides .owl-dots, .homepage_slides .owl-dots div {
+    height: auto;
+}
+.welcome_area::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #333;
+    opacity: .5;
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu ul li {
+    display: inline-block;
+    float: right;
+}
+.mainmenu ul li a {
+    display: block;
+    padding: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
+.header_area {
+    border-bottom: 1px solid #ddd;
+    border: none;
+}
+.header_area:after {
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background: #fff;
+    position: absolute;
+    opacity: .5;
+}
+.header_logo span{
+    color: #1DA362;
+}
+.header_logo a {
+    font-size: 36px;
+    padding: 20px;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: #333;
+}
+.social_icon {
+    border-left: 1px solid #ddd;
+    border: none;
+    position: relative;
+}
+.social_icon::before {
+    position: absolute;
+    content: "";
+    height: 108%;
+    width: 1px;
+    background: #fff;
+    opacity: .5;
+}
+.social_icon a {
+    display: inline-block;
+    margin-left: 11px;
+    font-size: 16px;
+    padding: 16px 12px;
+    color: #333;
+}
+.welcome_inner {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.welcome_text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+}
+.welcome_text h4{
+    font-size: 26px;
+}
+.welcome_text h1 {
+    font-size: 80px;
+    font-weight: i700;
+    line-height: 1;
+}
+.vedio_btn {
+    font-size: 16px;
+}
+.vedio_btn a {
+    font-size: 16px;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    line-height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    color: #333;
+}
+.video-bg{
+ position: relative;
+ background: transparent;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    z-index: 1;
+    
+}
+.ytplayer-container{
+ position: absolute;
+ top: 0;
+ z-index: -1;
+}
+
+
+
+
+
+
+
+
+
