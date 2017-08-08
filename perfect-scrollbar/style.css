@@ -1,0 +1,198 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+html,body{
+    overflow: hidden;
+    height: 100%;
+}
+body{
+    position: relative;
+}
+.portfolio_bg_1{
+    background-image: url(assets/img/sunrises1.jpg);
+}
+.portfolio_bg_2{
+    background-image: url(assets/img/sunrise2.jpg);
+}
+.portfolio_bg_3{
+    background-image: url(assets/img/sunrises3.jpg);
+}
+.portfolio_bg_4{
+    background-image: url(assets/img/bg5.jpeg);
+}
+.portfolio_bg_5{
+    background-image: url(assets/img/bg6.jpeg);
+}
+.portfolio_bg_6{
+    background-image: url(assets/img/sunrise3.jpg);
+}
+.single_portfolio:after{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d3d1d2+0,020202+100 */
+background: #d3d1d2; /* Old browsers */
+background: -moz-linear-gradient(top, #d3d1d2 0%, #020202 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d3d1d2 0%,#020202 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d3d1d2 0%,#020202 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d1d2', endColorstr='#020202',GradientType=0 ); /* IE6-9 */}
+
+.portfolio_list {
+    overflow: hidden;
+}
+.single_portfolio {
+    height: 280px;
+    float: left;
+    width: 33.33333333%;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+}
+.large_bg {
+    height: 550px;
+}
+.portfolio_hover {
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.portfolio_hover h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+.single_portfolio:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+   transition: .3s;
+
+}
+.single_portfolio:hover .portfolio_hover{
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+}
+.single_portfolio:hover:after{
+    opacity: .8;
+}
+.poutfolio_filter li {
+    float: left;
+    display: inline-block;
+    padding-right: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.active{
+    color: red;
+}
+.poutfolio_filter {
+    margin: 0 0 50px;
+    padding: 0;
+    list-style: none;
+}
+.poutfolio_filter li:after {
+    content: "/";
+    padding-left: 10px;
+    color: #000;
+}
+
+.poutfolio_filter li:last-child:after {
+    display: none;
+}
+
+.another_scrollbar{
+    position: relative;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
