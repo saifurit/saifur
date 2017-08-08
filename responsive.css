@@ -1,0 +1,364 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+.header-area .boxed-btn {
+    padding: 11px 6px;
+}
+.sign-up-form #email {
+    width: calc(100% - 40%);
+}
+.hero-area.theme-2 h1 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+.awesome-services-single {
+    height: 220px;
+}
+.single-blog-box {
+    padding: 40px 15px 40px 30px;
+    min-height: 407px;
+}
+ul.social-links li a {
+    font-size: 14px;
+    display: block;
+} 
+.footer-area .logo {
+    margin-bottom: 15px;
+} 
+.single-slide h1 {
+    font-size: 50px;
+}  
+.theme-2 .single-blog-box {
+    min-height: 521px;
+}  
+.single-blog-box h4 {
+    line-height: 1.6;
+}  
+.main-menu li a {
+    padding: 6px;
+}
+.theme-3 .social-links li {
+    margin: 8px 4px;
+}
+.welcome-text h1 {
+    font-size: 37px;
+}
+.boxed-btn, body input[type=submit], body input.boxed-btn, input[type=submit], button, #boxed-btn, button {
+    padding: 11px 20px;
+}
+.section-img:before {
+    width: 45%;
+    top: -5px;
+}
+.single-team-box img {
+    height: 250px;
+}  
+.testimonial-content {
+    font-size: 20px;
+}
+.footer-area h3 {
+    line-height: 1.5;
+} 
+.single-case-study {
+    height: 330px;
+}
+.padding-top-50 {
+    padding-top: 30px;
+}
+.hero-form {
+    padding: 25px 12px;
+}
+.margin-right--30 img {
+    height: 100%;
+}
+.section-padding.hero-area {
+    padding: 100px 0;
+}
+    
+	
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    
+    
+    
+
+}
+
+
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+    
+    .logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.header-area .main-menu {
+	display: none;
+}
+.header-area .text-right {
+  text-align: center;
+}
+.section-padding.hero-area {
+	padding: 80px 0;
+}
+.hero-area h1 {
+	font-size: 35px;
+}
+.hero-area input, .hero-area #keywords {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.hero-area-2 img, .hero-area img {
+  margin-top: 50px;
+}
+.single-pricing-table {
+	padding: 35px;
+	margin-bottom: 30px;
+}
+.sign-up-form {
+	padding: 0;
+}
+.footer-area h3 {
+	margin-top: 35px;
+}
+.footer-area {
+	padding: 50px 0;
+}
+.height_minus {
+	margin-top: -50px;
+}
+.section-padding {
+	padding: 75px 0;
+}
+.padding-top-50 {
+	padding-top: 0;
+}
+.contact-us-form input, .contact-us-form #keywords {
+	margin-top: 15px;
+}
+.contact-us-form #keywords {
+	height: 200px;
+	margin-bottom: 10px;
+}
+.margin-right--30 img {
+	height: 570px;
+}
+.hero-form {
+	padding: 20px;
+}
+.hero-area.theme-2 h1 {
+	font-size: 37px;
+	margin-top: 80px;
+    line-height: 1.4;
+}
+.about-people h3 {
+	margin-top: 35px;
+}
+.single-slide h1 {
+	font-size: 42px;
+	margin-bottom: 25px;
+}
+.hero-area .website-checked-form .boxed-btn, body .website-checked-form .boxed-btn {
+	width: calc(25% - 40px);
+}
+.hero-area h3 {
+	margin-top: 35px !important;
+}
+.footer-area .text-right {
+	text-align: center;
+}
+.welcome-text h1 {
+	font-size: 30px;
+}
+.tile-absolute {
+	position: relative;
+	left: auto;
+	right: auto;
+}
+.theme-2.section-img::before {
+	display: none;
+}
+.margin-left--30 h2, .padding-left-65 h2 {
+	margin-top: 30px;
+}
+.margin-left-30 {
+    margin-left: 0px;
+}
+.slicknav_menu {
+    display: block;
+}
+   .awesome-case-study-single {
+	margin-bottom: 50px;
+} 
+    .theme-2 .testimonial-content i {
+        text-align: center;
+    }
+    .testimonial-content {
+        text-align: left;
+    }
+    
+    .single-slide h1 {
+        font-size: 28px;
+    }
+.hero-area .website-checked-form .boxed-btn, body .website-checked-form .boxed-btn {
+	width: auto;
+}
+    
+    .off_canvas_menu ul {
+        margin-top: 50px;
+    }
+    .off_canvas_menu ul {
+        margin-top: 35px;
+    }
+    .off_canvas_menu ul {
+        line-height: 1.8;
+        font-size: 17px;
+    }
+    
+    
+    
+    
+    
+    
+}
+
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+	
+    .sign-up-form .boxed-btn {
+        margin-top: 20px;
+    }
+    .cta-area h2 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .testimonial-content {
+        font-size: 18px;
+    }
+    .hero-area h1 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+    .hero-form {
+        padding: 5px 5px 15px;
+        top: 30px;
+    }
+    .testimonial-content {
+        font-size: 15px;
+    }
+    .single-blog-box {
+        min-height: auto;
+    }
+    .theme-2 .single-blog-box {
+        padding: 25px 10px;
+    }
+    .theme-2 .post-img {
+        margin: -25px -10px 25px -10px;
+    }
+    .socail-bookmarks a {
+        margin: 2px 0;
+    }
+    .awesome-case-study-preview {
+        height: 250px;
+    }
+    .margin-right--30 img {
+        height: 300px;
+    }
+    .section-padding h3 {
+        margin-top: 10px;
+    }
+    .sign-up-form #email {
+        width: 100%;
+    }
+    .single-case-study {
+        height: 325px;
+    }
+    .welcome-text h1 {
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    .website-checked-form.theme-2 input, .website-checked-form.theme-2 #keywords {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .website-checked-form.theme-2 #boxed-btn {
+        width: auto;
+    }
+    .website-checked-form.theme-2 {
+        margin-top: 30px;
+    }
+    .padding-left-65 {
+        padding-left: 0px;
+    }
+    .copyright-area .col-sm-6 {
+        text-align: center;
+    }
+    
+    
+    
+    
+
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+    .post-img img {
+        width: 100%;
+    }
+    .footer-area .col-sm-4 {
+        float: left;
+        width: 33.334%;
+    }
+    .single-case-study img {
+        width: 100%;
+    }
+    .hero-form {
+        width: 400px;
+        left: 10px;
+    }
+    .footer-area .col-sm-2 {
+        width: 33.334%;
+        float: left;
+        margin-top: 15px;
+    }
+    .footer-area .col-sm-5 {
+        text-align: center;
+    }
+    
+
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
