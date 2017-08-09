@@ -1,0 +1,148 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+body {
+    color: #737373;
+    font-weight: 400;
+    font-size: 18px;
+}
+.section-title {
+    margin-bottom: 35px;
+}
+.section-title h1 {
+    position: relative;
+    z-index: 1;
+    color: #292929;
+    font-weight: 700;
+}
+.section-title h3:before {
+    position: absolute;
+    content: "";
+    left: -19px;
+    top: 0;
+    height: 30px;
+    width: 5px;
+    background: #FFBA00;
+}
+.border_box_icon a {
+    color: #FFBA00;
+    font-size: 60px;
+}
+.border_box h3 {
+    color: #6F7CC8;
+    font-size: 22px;
+    font-weight: 600;
+}
+.border_area {
+    border: 5px solid #FFBA00;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-right: 100px;
+    position: relative;
+}
+.logo_image {
+    margin-top: -134px;
+    margin-bottom: 40px;
+    max-width: 140%;
+}
+.border_area h3 {
+    color: #292929;
+    font-weight: 600;
+}
+.box_btn {
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    position: absolute;
+    color: #4555B9;
+    font-size: 16px;
+    font-weight: 600;
+    bottom: 41px;
+    right: -105px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
