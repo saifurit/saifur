@@ -1,0 +1,169 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.section_padding_overlay{
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+    height: 600px;
+}
+.section_padding_overlay:after, .single_service_box:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #FF7D00;
+    opacity: .5;
+    z-index: -1;
+}
+.service_bg_1{
+    background-image: url(assets/img/service3.jpg);
+}
+.single_service_box {
+    display: table;
+    width: 100%;
+    height: 200px;
+    background-size: 120%;
+    background-position: center;
+    background-color: #000;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+.single_service_box:after{
+    background: #003658;
+    opacity: .8;
+}
+.single_service_box_inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.single_service_box_inner h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+.single_box_bg_1{
+    background-image: url(assets/img/bg1.jpg);
+}
+.single_box_bg_2{
+    background-image: url(assets/img/bg2.jpg);
+}
+.single_box_bg_3{
+    background-image: url(assets/img/bg3.jpg);
+}
+.single_box_bg_4{
+    background-image: url(assets/img/bg4.jpg);
+}
+.single_box_bg_5{
+    background-image: url(assets/img/bg5.jpg);
+}
+.single_box_bg_6{
+    background-image: url(assets/img/bg6.jpg);
+}
+.single_box_bg_7{
+    background-image: url(assets/img/bg7.jpg);
+}
+.single_box_bg_8{
+    background-image: url(assets/img/bg8.jpg);
+}
+.single_service_box:hover {
+    background-size: 165%;
+}
+.single_service_box:hover:after{
+    opacity: .3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
