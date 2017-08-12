@@ -1,0 +1,172 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.section_padding{
+    background-color: #F6F5F6;
+}
+.colu_bg{
+    background: #fff;
+}
+.feature_menu {
+    margin: 0 0 50px;
+    padding: 0;
+    text-align: center;
+}
+.feature_menu li {
+    display: inline-block;
+    border-bottom: 3px solid #FFBE00;
+    margin: 0 30px;
+}
+.feature_menu li a {
+    display: block;
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.single_feature_item {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.single_feature_item {
+    position: relative;
+    width: 100%;
+    display: table;
+}
+.feature-bg_1, .feature-bg_2, .feature-bg_3, .feature-bg_4 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 500px;
+    background-image: url(assets/img/bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+.feature-bg_2{
+    background-image: url(assets/img/bg_2.jpg);
+}
+.feature-bg_3{
+    background-image: url(assets/img/bg_3.jpg);
+}
+.feature-bg_4{
+    background-image: url(assets/img/bg_4.jpg);
+}
+.feature_text {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 550px;
+    padding-right: 50px;
+}
+.feature_text h1 {
+    opacity: .2;
+    font-size: 50px;
+    font-weight: 400;
+}
+.feature_text h2 {
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.feature_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3d3c3d;
+    line-height: 1.8;
+}
+.box_btn {
+    border: 2px solid #FFBE00;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    background: #FFBE00;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.box_btn:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
