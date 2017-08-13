@@ -1,0 +1,119 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+    background: #;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.bg_primary{
+    background: #fff;
+    color: #D0CFD0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.shedule {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-weight: 400;
+    text-align: center;
+}
+.shedule th {
+    text-align: center;
+    color: #393839;
+    font-weight: 400;
+}
+.shedule th, .shedule td {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 15px;
+}
+.shedule thead{
+    background: #F0EFF0;
+}
+.shedule h4{
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
