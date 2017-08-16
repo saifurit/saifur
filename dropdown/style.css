@@ -1,0 +1,172 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+
+.section_title h2 {
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.mainmenu{
+    background-color: #232955;
+}
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+}
+.mainmenu li {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+}
+.mainmenu li a {
+    display: block;
+    padding: 8px 27px;
+    color: #fff;
+}
+.mainmenu li ul{
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    background: #B77FDB;
+    color: #fff;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    top: 0px;
+}
+.mainmenu li:hover ul{
+    top: 41px;
+    opacity: 1;
+    visibility: visible;
+}
+.mainmenu li ul li{
+    display: block;
+}
+.mainmenu li li a {
+    padding: 7px 20px;
+}
+.mainmenu li:hover li:hover > a{
+    color: #fff;
+    background: #232955;
+}
+
+/*scale effect*/
+.section-padding2{
+    margin-top: 150px;
+}
+.mainmenu.scale li ul{
+    transform: scale(0.5);
+}
+.mainmenu.scale li:hover ul{
+    transform: scale(1);
+}
+
+/*left animation*/
+.section-padding3{
+    margin-top: 150px;
+}
+.mainmenu.left li ul{
+    left: 50px;
+}
+.mainmenu.left li:hover ul{
+    left: 0;
+}
+/*roted animation*/
+.mainmenu.roted li ul{
+    transform: rotate(90deg);
+}
+.mainmenu.roted li:hover ul{
+    transform: rotate(0deg);
+}
+/*another animation*/
+.mainmenu.another li ul{
+    transform: rotate(180deg);
+}
+.mainmenu.another li:hover ul{
+    transform: rotate(0deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
