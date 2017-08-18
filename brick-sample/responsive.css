@@ -1,0 +1,175 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+	.header_contact li {
+        padding-left: 35px;
+    }
+    .header_contact li a {
+        font-size: 14px;
+        padding-right: 12px;
+    }
+    .header .text-right, .header .text-center {
+        text-align: left;
+    }
+    .header_lang_btn {
+        padding: 8px 20px;
+    }
+    
+    
+    
+    
+    
+	
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+    .sinlge_portfolio_item {
+        width: calc(33.334% - 15px);
+    }
+
+}
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+    .logo, .header_cart {
+      margin: 0 auto;
+    }
+    .header_contact, .header_social_link, .header .text-center, .header .text-right, .header_cart {
+      text-align: center;
+    }
+    .mainmenu li a {
+        padding: 10px 20px;
+    }
+    .widget_tag_list, .blog_widget, .blog_search_bar {
+        padding-left: 0px;
+    }
+    .footer_area li a {
+        padding: 0px 10px;
+    }
+    .slicknav_menu {
+        display: block;
+        position: relative;
+        z-index: 99;
+    }
+    .mainmenu {
+        display: none;
+    }
+    .header_social_link {
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+    .header_area {
+        position: relative;
+    }
+    .welcome_blog_content {
+        padding: 25px 0;
+    }
+    .blog_meta h1 {
+        font-size: 25px;
+    }
+    .blog_meta span {
+        margin-bottom: 10px;
+    }
+    .brick_widget {
+        margin-bottom: 25px;
+    }
+    .brick_widget h4 {
+        margin-bottom: 10px;
+    }
+    
+    .footer_area, .footer_area .text-right {
+      text-align: center;
+    }
+    .copyright {
+      margin-bottom: 7px;
+    }
+    .footer_area li a {
+        padding: 0 8px;
+    }
+    .single_service_item {
+        margin-bottom: 30px;
+    }
+    .single_choose_item h3 {
+        font-size: 21px;
+    }
+    .logo {
+        margin-top: 0;
+    }
+    .welcome_slider .owl-nav div.owl-next {
+        left: auto;
+        right: 0;
+    }
+    .welcome_slider .owl-nav div {
+        left: 0;
+    }
+    
+    
+    
+    
+}
+
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+	
+	.header_contact li {
+        margin-bottom: 10px;
+    }
+    .why_choose_us_area::before {
+        width: 100%;
+    }
+    .portfolio_item {
+        margin-left: 0;
+    }
+    .sinlge_portfolio_item {
+        width: 100%;
+        margin-left: 0;
+    }
+    .single_welcome_slider {
+        padding-top: 90px;
+        padding-bottom: 50px;
+    }
+    .logo {
+        width: 60px;
+    }
+    
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.column {
+		width: 450px;
+	}
+
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
