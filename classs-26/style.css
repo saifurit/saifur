@@ -1,0 +1,170 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.section_padding{
+    background-color: #EFEFEF;
+    margin: 50px 0;
+}
+.single_service_box_hover {
+    background-image: url(assets/img/images1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1);
+    transition: .4s;
+}
+.single_service_box_hover:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #0e1605;
+    background: -moz-linear-gradient(top, #0e1605 0%, #4ac129 100%);
+    background: -webkit-linear-gradient(top, #0e1605 0%,#4ac129 100%);
+    background: linear-gradient(to bottom, #0e1605 0%,#4ac129 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e1605', endColorstr='#4ac129',GradientType=0 );
+    z-index: -1;
+    opacity: .8;
+}
+.single_service_box {
+    padding: 35px 45px;
+    position: relative;
+    z-index: 1;
+    color: #000;
+}
+.single_service_box:hover .single_service_box_hover{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.1);
+    color: #fff;
+}
+.single_service_box:hover .service_box_inner{
+    color: #fff;
+}
+.social_icons a {
+    font-size: 100px;
+    line-height: 1.8;
+    color: #D7D7D7;
+    margin-bottom: 20px;
+    display: inherit;
+}
+.service_box_inner h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.service_box_inner p {
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 600;
+}
+.service_box_inner .arrow {
+    text-align: center;
+    display: inherit;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 23px;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+}
+.single_service_box:hover .arrow{
+    opacity: 0.7;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
