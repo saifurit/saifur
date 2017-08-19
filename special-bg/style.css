@@ -1,0 +1,135 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+    margin: 50px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.special_bg{
+    position: relative;
+    background-color: #F3F2F3;
+}
+.special_bg:before {
+    background-image: url(assets/img/sp_bg.jpg);
+    background-size: cover;
+    height: 150%;
+    width: 50%;
+    left: 0;
+    top: -25%;
+    position: absolute;
+    content: "";
+}
+.special_bg {
+    position: relative;
+    background-color: #F3F2F3;
+    padding-left: 55%;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.special_bg h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
+.special_bg p {
+    line-height: 1.6;
+    color: #C1C0C1;
+    font-weight: 600;
+}
+.special_bg a {
+    text-transform: uppercase;
+    display: inline-block;
+    background: #8ECD00;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.special_bg:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    border: 5px solid #8ECD00;
+    top: 7%;
+    right: -2%;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
