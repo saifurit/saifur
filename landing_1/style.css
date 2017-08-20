@@ -1,0 +1,223 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Poppins:300,400,500,600,700&subset=devanagari');
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.single_bg_1{
+    background-image: url(assets/img/ma_1.jpg);
+}
+.single_bg_2{
+    background-image: url(assets/img/ma_2.jpg);
+}
+.single_bg_3{
+    background-image: url(assets/img/ma_3.png);
+}
+.single_bg_4{
+    background-image: url(assets/img/ma_4.png);
+}
+.single_bg_5{
+    background-image: url(assets/img/ma_5.jpg);
+}
+.single_bg_6{
+    background-image: url(assets/img/ma_6.jpg);
+}
+.single_bg_7{
+    background-image: url(assets/img/ma_7.jpg);
+}
+.single_bg_8{
+    background-image: url(assets/img/ma_8.png);
+}
+.single_bg_9{
+    background-image: url(assets/img/ma_9.jpg);
+}
+.single_bg_10{
+    background-image: url(assets/img/ma_10.jpg);
+}
+.single_bg_11{
+    background-image: url(assets/img/ma_11.jpg);
+}
+
+
+.header_area{
+    padding: 40px 30px;
+}
+
+.header_logo h1 a {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #000;
+    display: inline-block;
+    position: relative;
+}
+.header_logo span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 10px;
+    font-weight: 900;
+}
+.header_logo span {
+    position: absolute;
+    right: -8px;
+    top: 1px;
+    font-size: 8px;
+    font-weight: 900;
+}
+.menu_trigger {
+    display: inline-block;
+    width: 30px;
+}
+.menu_trigger:hover span:nth-child(1),
+.menu_trigger:hover span:nth-child(3) {
+    margin: 0 8px;
+}
+.menu_trigger span {
+    display: block;
+    height: 2px;
+    background: #000;
+    transition: .3s;
+}
+.menu_trigger span:nth-child(2) {
+    margin: 8px 0;
+}
+
+.single_portfolio {
+    width: 25%;
+    float: left;
+    height: 300px;
+    background-size: 100%;
+    background-position: center;
+    transition: .5s;
+    display: table;
+}
+.single_portfolio:hover{
+    background-size: 120%;
+}
+.singlea-portfolio_hover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.singlea-portfolio_hover p {
+    font-size: 15px;
+    font-weight: 600;
+    opacity: .5;
+    color: #000;
+    margin: 0;
+    transition: .5s;
+}
+.singlea-portfolio_hover p:hover {
+    opacity: 1;
+    
+}
+.singlea-portfolio_hover h2 a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.singlea-portfolio_hover p {
+    line-height: 0;
+}
+.singlea-portfolio_hover p a {
+    font-size: 15px;
+    font-weight: 600;
+    opacity: .5;
+    color: #000;
+    margin: 0;
+    display: inline-block;
+}
+.single_portfolio:hover .singlea-portfolio_hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
