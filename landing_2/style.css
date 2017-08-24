@@ -1,0 +1,356 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Poppins:300,400,500,600,700&subset=devanagari');
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+     font-family: 'Poppins', sans-serif;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.portfolio_list {
+    z-index: 2;
+    margin-bottom: 214px;
+}
+.single_portfolio_bg_1{
+    background-image: url(assets/img/ma_1.jpg);
+}
+.single_portfolio_bg_2{
+    background-image: url(assets/img/ma_2.jpg);
+}
+.single_portfolio_bg_3{
+    background-image: url(assets/img/ma_3.png);
+}
+.single_portfolio_bg_4{
+    background-image: url(assets/img/ma_4.png);
+}
+.single_portfolio_bg_5{
+    background-image: url(assets/img/ma_5.jpg);
+}
+.single_portfolio_bg_6{
+    background-image: url(assets/img/ma_6.jpg);
+}
+.single_portfolio_bg_7{
+    background-image: url(assets/img/ma_7.jpg);
+}
+.single_portfolio_bg_8{
+    background-image: url(assets/img/ma_8.png);
+}
+.single_portfolio_bg_9{
+    background-image: url(assets/img/ma_9.jpg);
+}
+.single_portfolio_bg_10{
+    background-image: url(assets/img/ma_10.jpg);
+}
+.single_portfolio_bg_11{
+    background-image: url(assets/img/ma_11.jpg);
+}
+.single_portfolio {
+    background-size: 100%;
+    background-position: center;
+    background-color: #ddd;
+    height: 320px;
+    float: left;
+    width: 25%;
+    display: table;
+    transition: .3s;
+}
+.single_portfolio:hover{
+    background-size: 120%;
+}
+.portfolio_hover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.single_portfolio.large {
+    height: 640px;
+}
+.single_portfolio.box {
+    height: 640px;
+    width: 50%;
+}
+.single_portfolio:hover .portfolio_hover{
+    opacity: 1;
+    visibility: visible;
+}
+.portfolio_hover h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.portfolio_hover p {
+    opacity: .5;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    transition: .3s;
+    line-height: 0;
+}
+.portfolio_hover p:hover {
+    opacity: 1;
+}
+/*header css*/
+.header_area {
+    padding: 35px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.header_logo h2 a {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 1.2px;
+    position: relative;
+}
+.header_logo h2 span {
+    position: absolute;
+    font-size: 10px;
+    font-weight: 900;
+    right: -10px;
+    top: 1px;
+}
+.navbar_toogle span {
+    height: 2px;
+    background: #000;
+    display: block;
+    transition: .3s;
+}
+.navbar_toogle{
+    display: inline-block;
+    width: 30px;
+    cursor: pointer;
+}
+.navbar_toogle span:nth-child(2) {
+    margin: 5px 0;
+}
+.navbar_toogle:hover span:nth-child(1),
+.navbar_toogle:hover span:nth-child(3) {
+    margin: 0 8px;
+}
+/*footer css*/
+.footer_area {
+    background: #613ad6;
+}
+.footer_area h2 a{
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 1.2px;
+    position: relative;
+}
+.footer_area h2 span {
+    position: absolute;
+    font-size: 8px;
+    font-weight: 900;
+    right: -10px;
+    top: 1px;
+}
+.footer_area p a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 2;
+    opacity: .8;
+}
+.footer_area li a {
+    display: block;
+    line-height: 2;
+    color: #fff;
+    opacity: .8;
+}
+.footer_area {
+    background: #613ad6;
+    padding: 50px 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+/*off_canvas menu css*/
+.off-canvas-menu {
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    right: -40%;
+    top: 0;
+    z-index: 3;
+    background: #fff;
+    padding: 20px 0;
+    transition: .4s;
+}
+.off_canvas_menu_overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #333;
+    z-index: 3;
+    opacity: .3;
+    visibility: hidden;
+}
+.off_canvas_menu_overlay.active{
+    opacity: 0;
+    visibility: visible;
+}
+.off-canvas-menu.active{
+    right: 0;
+}
+.off_canvas_menu_wrap {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.off-canvas_menu_text {
+    display: table-cell;
+    vertical-align: middle;
+}
+.off-canvas_menu_text ul {
+    padding-bottom: 200px;
+    padding-left: 11%;
+}
+.off-canvas_menu_text li a {
+    display: block;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #372AB8;
+}
+.menu_bottom_section {
+    position: absolute;
+    bottom: 40PX;
+    left: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.menu-text {
+    margin-bottom: 20px;
+}
+.menu-text p {
+    background: #ddd;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.8;
+    padding: 10px;
+}
+.offcanvas_icon a {
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 10px;
+    color: #999;
+}
+/*menu cross*/
+.menu_cross {
+    position: absolute;
+    right: 0;
+    width: 65px;
+    border-left: 1px solid #ddd;
+    height: 100%;
+    top: 0;
+}
+.menu_cross i.fa {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    line-height: 40px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
