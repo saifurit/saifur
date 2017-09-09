@@ -1,0 +1,115 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.section-padding {
+    padding: 90px 0;
+    background: #1A1D1D;
+    margin: 100px 0;
+    color: #fff;
+    height: 600px;
+}
+.absolute-img {
+    margin-top: -302px;
+}
+.section-content h1 {
+    margin: 0;
+    font-size: 95px;
+    font-weight: 700;
+}
+.section-content h2 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.section-content p {
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 47px;
+}
+.box-btn {
+    border: 1px solid #fff;
+    padding: 14px 17px;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.box-btn:hover{
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+
