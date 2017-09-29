@@ -1,0 +1,141 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: February 2017
+Notes: Hand Coded for RR Foundation
+
+*===================================/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	
+}
+img {
+    height: auto;
+    max-width: 100%;
+	border: none;
+}
+body, html {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a:focus {
+	color: #333;
+	text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+	outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.fix:before, .fix:after {
+	content: "";
+	display: table;
+}
+.fix:after {
+	clear: both;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.section_padding {
+	padding: 80px 0;
+}
+/*------End Base CSS------*/
+
+/*------Start Here Global CSS------*/
+.section-bg{
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 100%;
+    width: 100%;
+}
+.section-bg-1{
+    background-image: url(assets/img/Screenshot_2.jpg);
+}
+.section-bg-2{
+    background-image: url(assets/img/Screenshot_2%20copy.JPG);
+}
+h3 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.box-btn {
+    display: inline-block;
+    background: #C1A168;
+    color: #fff;
+    padding: 10px 20px;
+}
+.box-btn:hover {
+    color: #fff;
+}
+.right-image {
+    position: relative;
+    z-index: 1;
+    left: 20px;
+    height: 390px;
+    width: 390px;
+}
+.right-image::after {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    height: 100%;
+    width: 100%;
+    content: "";
+    border: 2px solid #C1A168;
+    z-index: -1;
+}
+.right-image.left-back {
+    left: -60px;
+    top: 10px;
+}
+.left-content {
+    margin-top: 41px;
+    margin-bottom: 55px;
+}
+.right-content {
+    margin-top: 84px;
+}
+
+
+
+
+
+
+
+

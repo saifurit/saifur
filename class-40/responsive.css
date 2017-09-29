@@ -1,0 +1,86 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.right-image {
+    height: 330px;
+    width: 330px;
+    }
+    .right-image.left-back {
+    left: 0px;
+    top: 10px;
+}
+    
+	
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.column {
+		width: 750px;
+	}
+    .right-image {
+    width: 93%;
+}
+    .right-image.left-back {
+    left: 0;
+    margin-top: 57px;
+}
+
+}
+
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+	
+	.column {
+		width: 300px;
+	}
+	.right-image {
+    width: 85%;
+     }
+    .right-image.left-back {
+    left: 0;
+        margin-top: 90px;
+     }
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.column {
+		width: 450px;
+	}
+    .right-image {
+    width: 93%;
+     }
+    .right-image.left-back {
+    left: 0;
+        margin-top: 50px;
+     }
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
